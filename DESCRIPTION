@@ -5,7 +5,7 @@ Version: 0.1.4
 Author: Michael J. Kane
 Maintainer: Michael J. Kane <bigmemoryauthors@gmail.com>
 Contact: Michael J. Kane <bigmemoryauthors@gmail.com>
-Description: This package provides a shared resource interface for the bigmemory and synchronicity packages.
+Description: A shared resource interface for the bigmemory and synchronicity packages.
 License: LGPL-3 | Apache License 2.0
 Imports: methods
 Enhances: bigmemory, synchronicity
