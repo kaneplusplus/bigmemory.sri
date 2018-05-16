@@ -12,7 +12,6 @@ This package provides a shared resource interface for the bigmemory and synchron
 Package: \tab bigmemory.sri\cr
 Type: \tab Package\cr
 Version: \tab 0.1.4\cr
-Date: \tab 2012-08-17\cr
 License: \tab LGPL-3 | Apache License 2.0\cr
 Depends: \tab methods\cr
 }
