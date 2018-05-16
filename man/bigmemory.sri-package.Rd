@@ -2,10 +2,10 @@
 \alias{bigmemory.sri-package}
 \alias{bigmemory.sri}
 \docType{package}
-\title{A shared resource interface for Bigmemory Project packages
+\title{A Shared Resource Interface for Bigmemory Project Packages
 }
 \description{
-This package provides a shared resource interface for the bigmemory and synchronicity packages.
+A shared resource interface for the bigmemory and synchronicity packages.
 }
 \details{
 \tabular{ll}{
