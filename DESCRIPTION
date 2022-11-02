@@ -1,7 +1,7 @@
 Package: bigmemory.sri
 Type: Package
 Title: A Shared Resource Interface for Bigmemory Project Packages
-Version: 0.1.4
+Version: 0.1.5
 Author: Michael J. Kane
 Maintainer: Michael J. Kane <bigmemoryauthors@gmail.com>
 Contact: Michael J. Kane <bigmemoryauthors@gmail.com>
