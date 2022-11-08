@@ -1,12 +1,14 @@
 Package: bigmemory.sri
 Type: Package
 Title: A Shared Resource Interface for Bigmemory Project Packages
-Version: 0.1.5
+Version: 0.1.6
 Author: Michael J. Kane
 Maintainer: Michael J. Kane <bigmemoryauthors@gmail.com>
 Contact: Michael J. Kane <bigmemoryauthors@gmail.com>
 Description: A shared resource interface for the bigmemory and synchronicity packages.
+Encoding: UTF-8
 License: LGPL-3 | Apache License 2.0
-Imports: methods
-Enhances: bigmemory, synchronicity
-RoxygenNote: 6.0.1
+Enhances: bigmemory
+Imports:
+  methods
+RoxygenNote: 7.2.1
