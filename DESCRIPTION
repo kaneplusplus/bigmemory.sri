@@ -7,6 +7,7 @@ Maintainer: Michael J. Kane <bigmemoryauthors@gmail.com>
 Contact: Michael J. Kane <bigmemoryauthors@gmail.com>
 Description: A shared resource interface for the bigmemory and synchronicity packages.
 Encoding: UTF-8
+Language: en-US
 License: LGPL-3 | Apache License 2.0
 Enhances: bigmemory
 Imports:
