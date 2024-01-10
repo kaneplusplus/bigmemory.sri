@@ -14,19 +14,21 @@ shared resource.}
 }
 \value{
 An R object that makes use of a share resource.
+}
+\description{
+This generic function should be used to attach to a 
+system-wide shared resource on a computer. It is used by other packages.
+}
+\examples{
 # Create a concrete function.
 setMethod(
  "attach.resource", 
- signature(x="NULL"),
- function (obj, ...){
+ signature(obj = "NULL"),
+ function (obj, ...) {
    NULL
  }
 )
 
 # Describe it
 attach.resource(NULL)
-}
-\description{
-This generic function should be used to attach to a 
-system-wide shared resource on a computer. It is used by other packages.
 }

@@ -2,7 +2,7 @@
 #'
 #' @description This generic function should be used for creating a 
 #' description of a shared resource and is used in conjunction with 
-#' \code{attache.resource} to utilize shared resources from an R session.
+#' \code{attach.resource()} to utilize shared resources from an R session.
 #' @param x the object to create the descriptor for.
 #' @return A user-defined description of a shared resource.
 #' @seealso [bigmemory.sri::attach.resource()]
@@ -33,14 +33,15 @@ setGeneric('describe', function(x) standardGeneric('describe'))
 #' shared resource.
 #' @param ... other information needed for object-specific attaching.
 #' @return An R object that makes use of a share resource.
+#' @examples
 #' # Create a concrete function.
 #' setMethod(
 #'  "attach.resource", 
-#'  signature(x="NULL"),
-#'  function (obj, ...){
+#'  signature(obj = "NULL"),
+#'  function (obj, ...) {
 #'    NULL
 #'  }
-#')
+#' )
 #'
 #'# Describe it
 #' attach.resource(NULL)

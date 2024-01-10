@@ -15,7 +15,7 @@ A user-defined description of a shared resource.
 \description{
 This generic function should be used for creating a 
 description of a shared resource and is used in conjunction with 
-\code{attache.resource} to utilize shared resources from an R session.
+\code{attach.resource()} to utilize shared resources from an R session.
 }
 \examples{
 # Create a concrete function.

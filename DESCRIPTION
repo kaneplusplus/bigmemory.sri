@@ -2,9 +2,13 @@ Package: bigmemory.sri
 Type: Package
 Title: A Shared Resource Interface for Bigmemory Project Packages
 Version: 0.1.8
-Author: Michael J. Kane
-Maintainer: Michael J. Kane <bigmemoryauthors@gmail.com>
-Contact: Michael J. Kane <bigmemoryauthors@gmail.com>
+Authors@R: c(
+    person(given = "Michael J.",
+          family = "Kane",
+          role = c("aut", "cre"),
+          email = "bigmemoryauthors@gmail.com",
+          comment = c(ORCID = "0000-0003-1899-6662"))
+    )
 Description: A shared resource interface for the bigmemory and synchronicity packages.
 Encoding: UTF-8
 Language: en-US
