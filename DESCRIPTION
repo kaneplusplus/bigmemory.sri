@@ -9,6 +9,7 @@ Description: A shared resource interface for the bigmemory and synchronicity pac
 Encoding: UTF-8
 Language: en-US
 License: LGPL-3 | Apache License 2.0
+URL: https://github.com/kaneplusplus/bigmemory.sri
 Enhances: bigmemory
 Imports:
   methods
